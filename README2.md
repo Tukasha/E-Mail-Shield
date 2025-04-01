@@ -32,5 +32,5 @@ pip install -r requirements.txt
 После установки зависимостей запустите проект с помощью следующей команды:
 
 ```
-python main.py
+python "E-Mail Shield.py"
 ```
