@@ -10,7 +10,9 @@ git clone https://github.com/Tukasha/E-Mail-Shield.git
 
 После этого перейдите в папку проекта:
 
-`cd E-Mail-Shield`
+```
+cd E-Mail-Shield
+```
 
 
 
@@ -19,7 +21,9 @@ git clone https://github.com/Tukasha/E-Mail-Shield.git
 ## 2. Установка зависимостей
 Убедитесь, что у вас установлен **Python 3.8+** и пакетный менеджер `pip`. Затем установите все необходимые зависимости, выполнив следующую команду:
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 
 ---
@@ -27,4 +31,6 @@ git clone https://github.com/Tukasha/E-Mail-Shield.git
 ## 3. Запуск проекта
 После установки зависимостей запустите проект с помощью следующей команды:
 
-`python main.py`
+```
+python main.py
+```
