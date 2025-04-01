@@ -3,7 +3,7 @@
 ## 1. Клонирование репозитория
 Сначала необходимо склонировать репозиторий на ваш локальный компьютер. Для этого выполните команду в терминале:
 
-bash`git clone https://github.com/Tukasha/E-Mail-Shield.git`
+```git clone https://github.com/Tukasha/E-Mail-Shield.git```
 
 
 После этого перейдите в папку проекта:
