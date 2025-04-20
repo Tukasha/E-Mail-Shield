@@ -304,5 +304,5 @@ if __name__ == '__main__':
         print(f"{' ' * 3}[{len(class_().domains)}] {class_().api} - {class_().domains}")
 
     # Запускаем выбранный класс
-    selected_class().run_site('https://www.cyberforum.ru/')
+    selected_class().run_site('') # Тут ссылка на сайт, где пользователь регистрируется https://gamedev.ru/users/?regist
     selected_class().run()
