@@ -278,9 +278,8 @@ class TempMail(BaseMail):
         print(f'[X] Почтовый адрес {self.mail} - удален!')
         self.deleted = True
 
-
+# Специальный пример дя демонстрации возможностей API
 if __name__ == '__main__':
-    # API сервиса, используемого в классе MailGenerator
     classes = [MailTm, MailGw, TempMail]
 
     # Количество доменов для каждого класса
@@ -300,9 +299,10 @@ if __name__ == '__main__':
             break
 
     print("[+] Доступные домены:")
+    # Выводим все домены
     for class_ in classes:
         print(f"{' ' * 3}[{len(class_().domains)}] {class_().api} - {class_().domains}")
-    selected_class = MailGw
+
+    # Запускаем выбранный класс
     selected_class().run_site('https://www.cyberforum.ru/')
-    
     selected_class().run()
